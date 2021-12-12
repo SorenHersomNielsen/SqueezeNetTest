@@ -13,6 +13,8 @@
 		A22422092760AEB1001B92F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22422072760AEB1001B92F8 /* Main.storyboard */; };
 		A224220B2760AEB3001B92F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A224220A2760AEB3001B92F8 /* Assets.xcassets */; };
 		A224220E2760AEB3001B92F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A224220C2760AEB3001B92F8 /* LaunchScreen.storyboard */; };
+		A22422162760AFE5001B92F8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22422152760AFE5001B92F8 /* Extension.swift */; };
+		A224221A2760B100001B92F8 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A22422192760B100001B92F8 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A224220A2760AEB3001B92F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A224220D2760AEB3001B92F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A224220F2760AEB3001B92F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22422152760AFE5001B92F8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A22422192760B100001B92F8 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A224220A2760AEB3001B92F8 /* Assets.xcassets */,
 				A224220C2760AEB3001B92F8 /* LaunchScreen.storyboard */,
 				A224220F2760AEB3001B92F8 /* Info.plist */,
+				A22422152760AFE5001B92F8 /* Extension.swift */,
+				A22422192760B100001B92F8 /* SqueezeNet.mlmodel */,
 			);
 			path = SqueezeNetTest;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				A22422062760AEB1001B92F8 /* ViewController.swift in Sources */,
 				A22422022760AEB1001B92F8 /* AppDelegate.swift in Sources */,
+				A224221A2760B100001B92F8 /* SqueezeNet.mlmodel in Sources */,
 				A22422042760AEB1001B92F8 /* SceneDelegate.swift in Sources */,
+				A22422162760AFE5001B92F8 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
